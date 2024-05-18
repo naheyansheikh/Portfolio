@@ -2,7 +2,7 @@
   "name": "creative-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://naheyansheikh.github.io/Portfolio",
+  "homepage": "https://naheyansheikh.github.io/portfolio/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
