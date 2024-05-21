@@ -5,9 +5,9 @@ import './style.css'
 const About = React.forwardRef<HTMLDivElement>((props, ref) => {
   return (
     <div ref={ref} className="about-section">
-      {/* 🎯 Display the section title and subtitle */}
+      {}
       <Headings title="About" subtitle="Hi!👋 I'm Naheyan." />{' '}
-      {/* 📝 Edit the biography below to reflect your own journey and interests */}
+      {}
       <p className="about-text">
         I&apos;m currently in my third year at the University of British Columbia, 
         pursuing a degree in Computer Science. My journey into the world of programming began with coursework, 

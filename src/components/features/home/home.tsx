@@ -9,7 +9,6 @@ interface MotionBlockProps {
   children?: React.ReactNode
 }
 
-// 🔄 Animation variants for motion components
 const variants = {
   hidden: { translateX: '100px', opacity: 0 },
   visible: (delay: number) => ({
@@ -23,7 +22,6 @@ const variants = {
   }),
 }
 
-// 🎬 MotionBlock component to handle animations
 const MotionBlock = ({ className, delay, children }: MotionBlockProps) => (
   <motion.div
     initial="hidden"
@@ -68,7 +66,7 @@ const Home = React.forwardRef<HTMLDivElement>((props, ref) => {
         </MotionBlock>
         <MotionBlock className="name" delay={0.4}>
           <MotionBlock as="h1" className="title" delay={0.8}>
-            Naheyan Sheikh {/* <- 🔄 Change this to your name or brand */}
+            Naheyan Sheikh {}
           </MotionBlock>
         </MotionBlock>
         <MotionBlock className="chunck" delay={0.2}>

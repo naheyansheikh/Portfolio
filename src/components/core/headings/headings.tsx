@@ -7,7 +7,6 @@ type HeadingsProps = {
   subtitle: string
 }
 
-// Headings component: Renders a title and subtitle with a line separator
 export function Headings({ title, subtitle }: HeadingsProps) {
   return (
     <div className="headline-wrapper">
