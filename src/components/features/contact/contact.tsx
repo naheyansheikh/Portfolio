@@ -6,7 +6,7 @@ const Contact = React.forwardRef<HTMLDivElement>((props, ref) => {
   return (
     <div ref={ref} className="contact">
       {}
-      <Headings title="Contact" subtitle="Look Who's Here" />
+      <Headings title="Contact" subtitle="" />
       {}
       <div className="contact-text">
         The fastest way to get in touch with me is to send me a message on{' '}
