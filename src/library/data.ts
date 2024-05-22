@@ -23,6 +23,12 @@ export const projects = [
     externalUrl: '',
     languages: ['HTML', 'JavaScript', 'CSS'],
   },
+  {
+    title: 'Receiptify',
+    githubUrl: 'https://github.com/naheyansheikh/receiptify.git',
+    externalUrl: 'http://naheyansheikh.pythonanywhere.com/',
+    languages: ['Python', 'Flask', 'CSS'],
+  },
 ]
 
 export const socialLinks = [
